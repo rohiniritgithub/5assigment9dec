@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var n = prompt("enter a no :");
+		var sum=0;
+		function perfect_number()
+		{
+		for(var i=1;i<=n/2;i++)
+		{
+		
+			if(n%i==0)
+				{
+					sum=sum+i;
+				}
+
+		}
+		if(sum==n && sum!==0)
+		{
+			document.write("perfectno",n);
+		}
+		else
+		{
+			document.write("not perfect number",n);
+		}
+		
+}
+perfect_number(n)
+	</script>
+
+</body>
+</html>
